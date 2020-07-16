@@ -1,0 +1,12 @@
+[submodule "themes/educenter"]
+	path = themes/educenter
+	url = https://github.com/themefisher/educenter-hugo.git
+[submodule "themes/infinity"]
+	path = themes/infinity
+	url = https://github.com/themefisher/infinity-hugo.git
+[submodule "themes/timer"]
+	path = themes/timer
+	url = https://github.com/themefisher/timer-hugo.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
