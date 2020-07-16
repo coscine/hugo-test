@@ -157,7 +157,7 @@ h6, .h6 {
     color: #ddd; }
 
 body {
-  background-color: silver;
+  background-color: white;
   overflow-x: hidden; }
 
 ::selection {
@@ -779,7 +779,7 @@ link:focus,
   height: 90px; }
 
 .bg-footer {
-  background-color: teal; }
+  background-color: #182b45; }
 
 .logo-footer {
   margin-top: -20px;
