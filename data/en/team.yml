@@ -1,0 +1,73 @@
+############################## team large ###############################
+team_large:
+  enable : false
+  team_member:
+    # team large member loop
+    - name : "Marius Politze"
+      image : "images/team/featured-person-01.jpg"
+      image_webp : "images/team/featured-person-01.webp"
+      designation : "Group leader & software architect"
+      content : "The brains behind Coscine. Rockstar software architect Marius Politze leads towards an fully integrated future of research data management."
+      social:
+        - icon : "tf-ion-social-facebook"
+          link : "#"
+          
+        - icon : "tf-ion-social-twitter"
+          link : "#"
+
+
+    # team large member loop
+    - name : "Bela Brenger"
+      image : "images/team/featured-person-02.jpg"
+      image_webp : "images/team/featured-person-02.webp"
+      designation : "Service Manager"
+      content : "The muscle behind Coscine. Service Manager and Product Owner Bela Brenger surveys the RDM landscape and paves the way for Coscine. "
+      social:
+        - icon : "tf-ion-social-facebook"
+          link : "#"
+          
+        - icon : "tf-ion-social-twitter"
+          link : "#"
+
+
+############################ team small ##############################
+team_small:
+  enable : true
+  team_section:
+  # team section loop
+    - title : "Coscine development team"
+      #subtitle : "Get to know the people behind Coscine."
+      team_member:
+        # team member loop item
+        - name : "Marius Politze"
+          image : "images/team/design-team-03.jpg"
+          image_webp : "images/team/design-team-03.webp"
+          designation : "Group leader & software architect"
+          content : "Rockstar software architect Marius Politze leads towards an fully integrated future of research data management."
+             
+        # team member loop item
+        - name : "Bela Brenger"
+          image : "images/team/design-team-03.jpg"
+          image_webp : "images/team/design-team-03.webp"
+          designation : "Service Manager"
+          content : "Service Manager and Product Owner Bela Brenger surveys the RDM landscape and paves the way for Coscine. "
+             
+        # team member loop item
+        - name : "Amin Yazdi"
+          image : "images/team/design-team-03.jpg"
+          image_webp : "images/team/design-team-03.webp"
+          designation : "UI/UX Expert & SCRUM Master"
+          content : "No margin to small to escape the keen eyes of Amin Yazdi."
+
+
+
+
+############################ call to action ##############################
+call_to_action:
+  enable : true
+  title : "We are always looking for developers to help us realize our vision."
+  content : "If you are interested in joining our team contact us now."
+  button:
+    enable : true
+    label : "join the team"
+    link : "mailto:servicedesk@itc.rwth-aachen.de"

@@ -1,0 +1,29 @@
+- id: read_more
+  translation: Mehr
+
+- id: related
+  translation: Verwandte Artikel
+
+- id: posted_by
+  translation: Erstellt von
+
+- id: view_details
+  translation: Details anzeigen
+
+- id: location
+  translation: Standort
+
+- id: about_you
+  translation: Über dich
+
+- id: experience_title
+  translation: Erfahrung
+
+- id: apply
+  translation: Bewirb dich jetzt
+
+- id: contact_form
+  translation: Sende uns eine E-Mail
+
+- id: submit
+  translation: Absenden
