@@ -4,8 +4,8 @@ banner:
   background_shapes : true
   title : "Coscine | The integration environment for your research data."
   content : "Coscine not only provides a central hub to manage all your favorite data services in a research project but also enriches them with metadata for easier archiving and publishing processes."
-  image_webp : "images/mobile.webp"
-  image : "images/mobile.png"
+#  image_webp : "images/mobile.webp"
+  image : "images/online.png"
   button:
     label : "Try Now"
     link : "https://coscine.rwth-aachen.de"
@@ -35,8 +35,8 @@ feature:
   feature_item:
     # feature loopitem
     - title : "Increase your productivity with Coscine"
-      image : "images/feature/feature-new-01.jpg"
-      image_webp : "images/feature/feature-new-01.webp"
+      image : "images/feature/manuscript.png"
+      image_webp : "images/feature/manuscript.webp"
       content : "Have all data sources for a project in one place and manage project-members easily to spend less time with collecting data and asking for access."
       # quoted text
       quote:
@@ -53,8 +53,8 @@ service:
   enable : true
   title : "An Interface For Research Data Management"
   subtitle : "Coscine makes it easy to stay on top of all your reseach projects. No labyrinth of data sources. Easy access for new project members."
-  image : "images/feature/iphone-ipad.jpg"
-  image_webp : "images/feature/iphone-ipad.webp"
+  image : "images/feature/screen.png"
+  image_webp : "images/feature/screen.webp"
   service_item:
     # service item loop
     - name : "Easy data access for colleagues."
