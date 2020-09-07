@@ -16,25 +16,34 @@ our_story:
 ############################ behind story ##############################
 behind_story:
   enable : true
-  title : "What are we doing differently?"
-  content : "Our approach looks at well liked services und established workflows and tries to integrate and enrich those. We do not want to break or re-invent processes but try to provide additional value by connecting otherwise separate services. To achieve this, we leverage contextual information provided by local identidy management services, publicly available organizational information and stadardized interfaces for access management. Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable natively digital research processes."
+  title : "What is an Integration Environment?"
+  content : "Our approach is to integrate and enrich established services and workflows. 
+  
+  We do not want to break or re-invent processes but try to provide additional value by connecting otherwise separate services. To achieve this, we leverage contextual information provided by local identidy management services, publicly available organizational information and stadardized interfaces for access management. 
+  
+  Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable natively digital research processes."
 
 ############################ about us ##############################
 about_us:
-  enable : false
+  enable : true
   about_item:
     # about item loop
-    - title : "Our Story"
-      image : "images/about/story.jpg"
-      image_webp : "images/about/story.webp"
-      content : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    - title : "Integration of multiple resources"
+      image : "images/about/puzzle.jpg"
+      image_webp : "images/about/puzzle.webp"
+      content : "Resources a are key conept in Coscine. We look at data sources and services like object store, Gitlab or cloud provider as resources that are integrated into a research project."
       
     # about item loop
-    - title : "What we do"
-      image : "images/about/plan.jpg"
-      image_webp : "images/about/plan.webp"
-      content : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    - title : "FAIR principles"
+      image : "images/about/checklist.png"
+      image_webp : "images/about/checklist.png"
+      content : "The FAIR principles are a guide to make research data open and available while allowing the researcher to maintaining ownership over his research. Coscine follows those principles and enables simple data storage solutions to become FAIR."
 
+    # about item loop
+    - title : "Application profiles for your needs"
+      image : "images/about/metadataschema.png"
+      image_webp : "images/about/metadataschema.png"
+      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing to use multiple application profiles for each project. So you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
 ############################ quote slider ##############################
 quote_slider:
   enable : false
@@ -50,10 +59,10 @@ clients_logo_slider:
   enable : true
   title : "Pilot partners"
   logos :
-   - "images/clients/business-finder.png"
-   - "images/clients/forbes.png"
-   - "images/clients/venture-beat.png"
-
+   - "images/about/it-center.png"
+   - "images/about/fdm-nrw.png"
+   - "images/about/1382.png"
+   - "images/about/1394.png"
 
 ############################ investors ##############################
 investors :
