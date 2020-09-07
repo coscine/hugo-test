@@ -8,100 +8,31 @@ function initialize() {
   var mapMarkerName = $('#map_canvas').attr('data-marker-name');
   var nottingham = new google.maps.LatLng(latitude, longitude);
   var style = [{
-      "featureType": "landscape",
       "stylers": [{
-          "hue": "#FFAD00"
+          "hue": "#2c3e50"
         },
         {
-          "saturation": 50.2
-        },
-        {
-          "lightness": -34.8
-        },
-        {
-          "gamma": 1
+          "saturation": 250
         }
       ]
     },
     {
-      "featureType": "road.highway",
+      "featureType": "road",
+      "elementType": "geometry",
       "stylers": [{
-          "hue": "#FFAD00"
+          "lightness": 50
         },
         {
-          "saturation": -19.8
-        },
-        {
-          "lightness": -1.8
-        },
-        {
-          "gamma": 1
+          "visibility": "simplified"
         }
       ]
     },
     {
-      "featureType": "road.arterial",
+      "featureType": "road",
+      "elementType": "labels",
       "stylers": [{
-          "hue": "#FFAD00"
-        },
-        {
-          "saturation": 72.4
-        },
-        {
-          "lightness": -32.6
-        },
-        {
-          "gamma": 1
-        }
-      ]
-    },
-    {
-      "featureType": "road.local",
-      "stylers": [{
-          "hue": "#FFAD00"
-        },
-        {
-          "saturation": 74.4
-        },
-        {
-          "lightness": -18
-        },
-        {
-          "gamma": 1
-        }
-      ]
-    },
-    {
-      "featureType": "water",
-      "stylers": [{
-          "hue": "#00FFA6"
-        },
-        {
-          "saturation": -63.2
-        },
-        {
-          "lightness": 38
-        },
-        {
-          "gamma": 1
-        }
-      ]
-    },
-    {
-      "featureType": "poi",
-      "stylers": [{
-          "hue": "#FFC300"
-        },
-        {
-          "saturation": 54.2
-        },
-        {
-          "lightness": -14.4
-        },
-        {
-          "gamma": 1
-        }
-      ]
+        "visibility": "off"
+      }]
     }
   ];
   var mapOptions = {
@@ -126,7 +57,7 @@ function initialize() {
   map.mapTypes.set('grey', mapType);
   map.setMapTypeId('grey');
   var marker_image = mapMarker;
-  var pinIcon = new google.maps.MarkerImage(marker_image, null, null, null, new google.maps.Size(37, 55));
+  var pinIcon = new google.maps.MarkerImage(marker_image, null, null, null, new google.maps.Size(46, 45));
   marker = new google.maps.Marker({
     position: nottingham,
     map: map,
