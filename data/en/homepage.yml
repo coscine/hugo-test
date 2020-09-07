@@ -80,7 +80,7 @@ promo_video:
   content : "The IT Center introduces itself"
   bg_image : "images/background/promo-video-back.jpg"
   bg_image_webp : "images/background/promo-video-back.webp"
-  video_embed_url : "https://www.youtube.com/watch?v=4NnZ3LQphN0&f"
+  video_embed_url : "https://www.youtube.com/embed/xvYB0SB2vhw"
   
 
 ############################### testimonial ###################################
@@ -101,8 +101,8 @@ testimonial:
 ############################### download ###################################
 download:
   enable : true
-  title : "It's time to get started"
-  subtitle : "Go and log in to Coscine and test it yourself!"
+  title : "Test it yourself"
+  subtitle : "Just log-in and see if Coscine fits your needs."
   download_buttons :
     - label : "Go to Coscine"
       icon : " tf-ion-log-in"

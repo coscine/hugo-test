@@ -62,7 +62,7 @@ weight = 5
 
 # dropdown menu
 [[menu.main]]
-name = "Pages"
+name = "More"
 weight = 6
 hasChildren = true
 
