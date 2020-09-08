@@ -1,5 +1,5 @@
 ############################# Default configuration ########################
-baseURL = "http://localhost:1313/"
+baseURL = "https://coscine.github.io/hugo-test/"
 title = "Coscine | The integration environment for researchers"
 theme = "small-apps-hugo"
 # post pagination
