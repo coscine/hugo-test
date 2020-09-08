@@ -1,5 +1,5 @@
 ############################# Default configuration ########################
-baseURL = "https://coscine.github.io/hugo-test/"
+baseURL = "http://localhost:1313/"
 title = "Coscine | The integration environment for researchers"
 theme = "small-apps-hugo"
 # post pagination
@@ -67,17 +67,22 @@ weight = 6
 hasChildren = true
 
   [[menu.main]]
-  parent = "Pages"
+  parent = "More"
   name = "Privacy"
   URL = "privacy"
   weight = 1
 
   [[menu.main]]
-  parent = "Pages"
+  parent = "More"
   name = "Contact"
   URL = "contact"
   weight = 2
-
+  
+  [[menu.main]]
+  parent = "More"
+  name = "Publications"
+  URL = "publications"
+  weight = 3
 
 # footer menu
 [[menu.footer]]

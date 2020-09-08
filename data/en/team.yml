@@ -7,7 +7,7 @@ team_large:
       image : "images/team/politze.jpg"
       image_webp : "images/team/politze.jpg"
       designation : "Group leader & software architect"
-      content : "The brains behind Coscine. Rockstar software architect Marius Politze leads towards an fully integrated future of research data management."
+      content : "Marius Politze is responsible to lead the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management."
       social:
         - icon : "tf-ion-social-facebook"
           link : "#"
@@ -20,8 +20,8 @@ team_large:
     - name : "Bela Brenger"
       image : "images/team/brenger.jpg"
       image_webp : "images/team/brenger.jpg"
-      designation : "Service Manager"
-      content : "The muscle behind Coscine. Service Manager and Product Owner Bela Brenger surveys the RDM landscape and paves the way for Coscine. "
+      designation : "Service Manager & Product Owner"
+      content : "Bela Brenger is responsible for coordinating with internal and external partners and oversees requirement engineering with our users."
       social:
         - icon : "tf-ion-social-facebook"
           link : "#"
@@ -43,21 +43,21 @@ team_small:
           image : "images/team/politze.jpg"
           image_webp : "images/team/politze.jpg"
           designation : "Group leader & software architect"
-          content : "Rockstar software architect Marius Politze leads towards an fully integrated future of research data management."
+          content : "Marius Politze is responsible to lead the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management.."
              
         # team member loop item
         - name : "Bela Brenger"
           image : "images/team/brenger.jpg"
           image_webp : "images/team/brenger.jpg"
-          designation : "Service Manager"
-          content : "Service Manager and Product Owner Bela Brenger surveys the RDM landscape and paves the way for Coscine. "
+          designation : "Service Manager & Product Owner"
+          content : "Bela Brenger is responsible for coordinating with internal and external partners and oversees requirement engineering with our users. "
              
         # team member loop item
         - name : "Amin Yazdi"
           image : "images/team/yazdi.png"
           image_webp : "images/team/yazdi.png"
           designation : "UI/UX Expert & SCRUM Master"
-          content : "No margin to small to escape the keen eyes of Amin Yazdi."
+          content : "Amin  Yazdi is responsible for the UI and UX and coordinates the agile development process as our SCRUM Master."
 
 
 

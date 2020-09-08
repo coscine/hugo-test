@@ -1,0 +1,13 @@
+publications:
+              
+  # publications item loop
+  - name : "Publication 1 "
+    content : "Link1"
+    
+    # publications item loop
+  - name : "Publication 2 "
+    content : "Link2"  
+     
+  # publications item loop 
+  - name : "Publication 3 "
+    content : "Link3"

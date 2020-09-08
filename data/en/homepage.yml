@@ -2,12 +2,12 @@
 banner:
   enable : true
   background_shapes : true
-  title : "Coscine | The integration environment for your research data."
-  content : "Coscine not only provides a central hub to manage all your favorite data services in a research project but also enriches them with metadata for easier archiving and publishing processes."
+  title : "Coscine | An integration environment for your research data."
+  content : "Coscine provides a central hub for your research projects. It supports you to enrich research data with metadata, manage project members access and provides simple archiving processes."
 #  image_webp : "images/mobile.webp"
-  image : "images/online.png"
+  image : "images/lifecycle.png"
   button:
-    label : "Try Now"
+    label : "Sign in"
     link : "https://coscine.rwth-aachen.de"
     
 ######################## banner-feature ###########################
@@ -34,10 +34,10 @@ feature:
   enable : true
   feature_item:
     # feature loopitem
-    - title : "Increase your productivity with Coscine"
-      image : "images/feature/manuscript.png"
-      image_webp : "images/feature/manuscript.webp"
-      content : "Have all data sources for a project in one place and manage project-members easily to spend less time with collecting data and asking for access."
+    - title : "Metadata for all data sources"
+      image : "images/metadata3.png"
+      image_webp : "images/metadata3.png"
+      content : "Coscine enables different data sources with a common metadata management."
       # quoted text
       quote:
         enable : false
@@ -51,33 +51,33 @@ feature:
 ############################### service #################################
 service:
   enable : true
-  title : "An Interface For Research Data Management"
-  subtitle : "Coscine makes it easy to stay on top of all your reseach projects. No labyrinth of data sources. Easy access for new project members."
+  title : "An Interface for your Research Project"
+  subtitle : "Coscine helps you to stay on top of your reseach projects and all of their data sources."
   image : "images/feature/screen.png"
   image_webp : "images/feature/screen.webp"
   service_item:
     # service item loop
-    - name : "Easy data access for colleagues."
+    - name : "Easy Data Access for Colleagues."
       icon : "tf-ion-ios-people-outline"
-      content : "Give new project members access to all relevant data sources with one click; even if they are working at another institution."
+      content : "Your can easily give new project members access to all relevant data sources; even if they are working at another institution."
       
     # service item loop
-    - name : "All data sources in one place"
+    - name : "Make your Data FAIR"
       icon : "tf-puzzle"
-      content : "Use multiple services and data sources in a project, to enable your ideal workflows."
+      content : "You can use common services and data sources; Coscine helps you to make them FAIR."
       
     # service item loop
-    - name : "Advanced metadata management"
+    - name : "Advanced Metadata Management"
       icon : "tf-search3"
-      content : "Enrich your data with metadata; even if your data source does not provide this function natively."
+      content : "Enrich your data with metadata to enable searching across data sources."
       
 
 
 ############################### promo video ###################################
 promo_video:
   enable : true
-  title : "Watch Our Promo Video"
-  content : "The IT Center introduces itself"
+  title : "Watch Our Video"
+  content : "A short introduction of Coscine"
   bg_image : "images/background/promo-video-back.jpg"
   bg_image_webp : "images/background/promo-video-back.webp"
   video_embed_url : "https://www.youtube.com/embed/xvYB0SB2vhw"
@@ -101,9 +101,9 @@ testimonial:
 ############################### download ###################################
 download:
   enable : true
-  title : "Test it yourself"
-  subtitle : "Just log-in and see if Coscine fits your needs."
+  title : "We are in our open pilot phase"
+  subtitle : "You can already log-in and see if Coscine fits your needs."
   download_buttons :
-    - label : "Go to Coscine"
+    - label : "Sign in"
       icon : " tf-ion-log-in"
       link : "https://coscine.rwth-aachen.de"
