@@ -2,120 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coscine | The integration environment for researchers</title>
-    <link>http://localhost:1313/ger/</link>
+    <link>https://coscine.github.io/hugo-test/ger/</link>
     <description>Recent content on Coscine | The integration environment for researchers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ger-ger</language>
-    <lastBuildDate>Thu, 28 Feb 2019 12:35:54 +0600</lastBuildDate>
-    
-	<atom:link href="http://localhost:1313/ger/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 28 Feb 2019 12:35:54 +0600</lastBuildDate><atom:link href="https://coscine.github.io/hugo-test/ger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/featured-post/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/featured-post/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/featured-post/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/featured-post/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-1/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-1/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-1/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-1/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-2/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-2/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-2/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-2/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-3/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-3/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-3/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-3/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-4/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-4/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-4/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-4/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-5/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-5/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-5/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-5/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-6/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-6/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-6/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-6/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-7/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-7/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-7/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-7/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-8/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-8/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-8/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-8/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Innovation distinguishes between a leader and a follower.</title>
-      <link>http://localhost:1313/ger/blog/post-9/</link>
+      <link>https://coscine.github.io/hugo-test/ger/blog/post-9/</link>
       <pubDate>Thu, 28 Feb 2019 12:35:54 +0600</pubDate>
       
-      <guid>http://localhost:1313/ger/blog/post-9/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/blog/post-9/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Selina Gomez</title>
-      <link>http://localhost:1313/ger/author/selina-gomez/</link>
+      <link>https://coscine.github.io/hugo-test/ger/author/selina-gomez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ger/author/selina-gomez/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/author/selina-gomez/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
     </item>
     
     <item>
       <title>Thomas Johnson</title>
-      <link>http://localhost:1313/ger/author/thomas-johnson/</link>
+      <link>https://coscine.github.io/hugo-test/ger/author/thomas-johnson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ger/author/thomas-johnson/</guid>
+      <guid>https://coscine.github.io/hugo-test/ger/author/thomas-johnson/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
     </item>
     

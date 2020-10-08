@@ -40,49 +40,95 @@ name = "About"
 URL = "about"
 weight = 1
 
+#dropdown menu
 [[menu.main]]
-name = "team"
-URL = "team"
+name = "Development"
 weight = 2
-
-#[[menu.main]]
-#name = "Blog"
-#URL = "blog"
-#weight = 3
-
-#[[menu.main]]
-#name = "career"
-#URL = "career"
-#weight = 4
-
-[[menu.main]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-# dropdown menu
-[[menu.main]]
-name = "More"
-weight = 6
 hasChildren = true
 
-  [[menu.main]]
-  parent = "More"
-  name = "Privacy"
-  URL = "privacy"
-  weight = 1
+	[[menu.main]]
+	parent = "Development"
+	name = "Team"
+	URL = "team"
+	weight = 1
 
-  [[menu.main]]
-  parent = "More"
-  name = "Contact"
-  URL = "contact"
-  weight = 2
-  
-  [[menu.main]]
-  parent = "More"
-  name = "Publications"
-  URL = "publications"
-  weight = 3
+	[[menu.main]]
+	parent = "Development"
+	name = "Partners"
+	URL = "partners"
+	weight = 2
+
+	[[menu.main]]
+	parent = "Development"
+	name = "Code Of Conduct"
+	URL = "coc"
+	weight = 3
+
+	[[menu.main]]
+	parent = "Development"
+	name = "Sustainability & Funding"
+	URL = "sustainability-funding"
+	weight = 4
+
+	[[menu.main]]
+	parent = "Development"
+	name = "Publications"
+	URL = "publications"
+	weight = 5
+
+	[[menu.main]]
+	parent = "Development"
+	name = "Contact"
+	URL = "contact"
+	weight = 6
+
+	[[menu.main]]
+	parent = "Development"
+	name = "Source Code"
+	URL = "source-code"
+	weight = 7
+	
+# dropdown menu
+[[menu.main]]
+name = "SUPPORT"
+weight = 5
+hasChildren = true
+
+	[[menu.main]]
+	parent = "SUPPORT"
+	name = "FAQ"
+	URL = "faq"
+	weight = 1
+	
+	[[menu.main]]
+	parent = "SUPPORT"
+	name = "Documentation"
+	URL = "documentation"
+	weight = 2
+
+	[[menu.main]]
+	parent = "SUPPORT"
+	name = "ServiceDesk"
+	URL = "sd"
+	weight = 3
+
+	[[menu.main]]
+	parent = "SUPPORT"
+	name = "Bug Reports"
+	URL = "bugs"
+	weight = 4
+
+	[[menu.main]]
+	parent = "SUPPORT"
+	name = "Feature Requests"
+	URL = "requests"
+	weight = 5
+
+
+[[menu.main]]
+name = "Imprint"
+URL = "imprint"
+weight = 6
 
 # footer menu
 [[menu.footer]]
@@ -98,7 +144,7 @@ name = "Privacy"
 URL = "privacy"
 
 [[menu.footer]]
-name = "FAQ"
+name = "Support"
 URL = "faq"
 
 
