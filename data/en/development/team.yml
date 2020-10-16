@@ -1,0 +1,73 @@
+############################## team large ###############################
+team_large:
+  enable : false
+  team_member:
+    # team large member loop
+    - name : "Marius Politze"
+      image : "images/team/politze.jpg"
+      image_webp : "images/team/politze.jpg"
+      designation : "Group leader & software architect"
+      content : "Marius Politze is responsible to lead the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management."
+      social:
+        - icon : "tf-ion-social-facebook"
+          link : "#"
+          
+        - icon : "tf-ion-social-twitter"
+          link : "#"
+
+
+    # team large member loop
+    - name : "Bela Brenger"
+      image : "images/team/brenger.jpg"
+      image_webp : "images/team/brenger.jpg"
+      designation : "Service Manager & Product Owner"
+      content : "Bela Brenger is responsible for coordinating with internal and external partners and oversees requirement engineering with our users."
+      social:
+        - icon : "tf-ion-social-facebook"
+          link : "#"
+          
+        - icon : "tf-ion-social-twitter"
+          link : "#"
+
+
+############################ team small ##############################
+team_small:
+  enable : true
+  team_section:
+  # team section loop
+    - title : "Coscine development team"
+      #subtitle : "Get to know the people behind Coscine."
+      team_member:
+        # team member loop item
+        - name : "Marius Politze"
+          image : "images/team/politze.jpg"
+          image_webp : "images/team/politze.jpg"
+          designation : "Group leader & software architect"
+          content : "Marius Politze is responsible to lead the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management.."
+             
+        # team member loop item
+        - name : "Bela Brenger"
+          image : "images/team/brenger.jpg"
+          image_webp : "images/team/brenger.jpg"
+          designation : "Service Manager & Product Owner"
+          content : "Bela Brenger is responsible for coordinating with internal and external partners and oversees requirement engineering with our users. "
+             
+        # team member loop item
+        - name : "Amin Yazdi"
+          image : "images/team/yazdi.png"
+          image_webp : "images/team/yazdi.png"
+          designation : "UI/UX Expert & SCRUM Master"
+          content : "Amin  Yazdi is responsible for the UI and UX and coordinates the agile development process as our SCRUM Master."
+
+
+
+
+############################ call to action ##############################
+call_to_action:
+  enable : true
+  title : "We are always looking for developers to help us realize our vision."
+  content : "If you are interested in joining our team contact us now."
+  button:
+    enable : true
+    label : "join the team"
+    link : "mailto:servicedesk@itc.rwth-aachen.de"
