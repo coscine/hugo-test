@@ -2,31 +2,31 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ "<!-- publications Policy -->" | safeHTML }}
-{{ with $data.publications.publications }}
-<section class="publications section pt-0">
+{{ "<!-- Privacy Policy -->" | safeHTML }}
+{{ with $data.privacy.privacy }}
+<section class="privacy section pt-0">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <!--<nav class="publications-nav">
+        <nav class="privacy-nav">
           <ul>
             {{ range . }}
             <li><a href="#{{ .name | urlize }}" class="nav-link scrollTo">{{ .name | title }}</a></li>
             {{ end }}
           </ul>
-        </nav>-->
+        </nav>
       </div>
       <div class="col-md-9">
         <div class="block">
           {{ range . }}
-          <div id="{{ .name | urlize }}" class="publications-item">
+          <div id="{{ .name | urlize }}" class="policy-item">
             <div class="title">
               <h3>{{ .name | title }}</h3>
             </div>
-            <div class="publications-details">
+            <div class="policy-details">
               {{ .content | markdownify }}
             </div>
-          </div><br><hr>
+          </div>
           {{ end }}
         </div>
       </div>
@@ -34,6 +34,6 @@
   </div>
 </section>
 {{ end }}
-{{ "<!-- End of publications Policy -->" | safeHTML }}
+{{ "<!-- End of Privacy Policy -->" | safeHTML }}
 
 {{ end }}

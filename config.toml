@@ -9,6 +9,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
 
+
 ################################### Plugins #################################
 # CSS Plugins
 [[params.plugins.css]]
@@ -66,26 +67,14 @@ hasChildren = true
 
 	[[menu.main]]
 	parent = "Development"
-	name = "Sustainability & Funding"
-	URL = "sustainability-funding"
-	weight = 4
-
-	[[menu.main]]
-	parent = "Development"
 	name = "Publications"
 	URL = "publications"
 	weight = 5
 
 	[[menu.main]]
 	parent = "Development"
-	name = "Contact"
-	URL = "contact"
-	weight = 6
-
-	[[menu.main]]
-	parent = "Development"
-	name = "Source Code"
-	URL = "sourcecode"
+	name = "SourceCode on GitLab"
+	URL = "https://git.rwth-aachen.de/coscine"
 	weight = 7
 	
 # dropdown menu
@@ -103,25 +92,25 @@ hasChildren = true
 	[[menu.main]]
 	parent = "SUPPORT"
 	name = "Documentation"
-	URL = "documentation"
+	URL = "https://git.rwth-aachen.de/coscine"
 	weight = 2
 
 	[[menu.main]]
 	parent = "SUPPORT"
-	name = "ServiceDesk"
-	URL = "servicedesk"
+	name = "Contact"
+	URL = "contact"
 	weight = 3
 
 	[[menu.main]]
 	parent = "SUPPORT"
 	name = "Bug Reports"
-	URL = "bug-reports"
+	URL = "https://git.rwth-aachen.de/groups/coscine/-/issues"
 	weight = 4
 
 	[[menu.main]]
 	parent = "SUPPORT"
 	name = "Feature Requests"
-	URL = "feature-requests"
+	URL = "https://git.rwth-aachen.de/groups/coscine/-/issues"
 	weight = 5
 
 
@@ -136,15 +125,11 @@ name = "About"
 URL = "about"
 
 [[menu.footer]]
-name = "Contact"
-URL = "contact"
+name = "Imprint"
+URL = "imprint"
 
 [[menu.footer]]
-name = "Privacy"
-URL = "privacy"
-
-[[menu.footer]]
-name = "Support"
+name = "FAQ"
 URL = "faq"
 
 
@@ -182,17 +167,34 @@ map_marker = "images/marker.png"
 
 
 ########################### social icon ############################
+
+#[[params.social]]
+#icon = "tf-ion-social-facebook"
+#URL = "https://www.facebook.com/itcenterrwth"
+
+#[[params.social]]
+#icon = "tf-ion-social-twitter"
+#URL = "https://www.twitter.com/itcenterrwth/"
+
+#[[params.social]]
+#icon = "tf-ion-social-instagram"
+#URL = "https://www.instagram.com/rwthaachenuniversity/"
+
+
+# Broken! Doesn't even work out of the box with sample configuration.
+#
+
 [[params.social]]
 icon = "tf-ion-social-facebook"
-URL = "https://www.facebook.com/itcenterrwth/"
+URL = "https://facebook.com/themefisher"
 
 [[params.social]]
 icon = "tf-ion-social-twitter"
-URL = "https://www.twitter.com/itcenterrwth/"
+URL = "https://twitter.com/themefisher"
 
 [[params.social]]
 icon = "tf-ion-social-instagram"
-URL = "https://www.instagram.com/rwthaachenuniversity/"
+URL = "https://instagram.com/themefisher"
 
 
 ################################### English language #####################################
