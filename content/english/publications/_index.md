@@ -1,5 +1,5 @@
 ---
-title: "Publications title"
+title: "Publications"
 draft: false
 description : "Selected publications."
 ---

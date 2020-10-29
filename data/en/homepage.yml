@@ -2,7 +2,7 @@
 banner:
   enable : true
   background_shapes : true
-  title : "Coscine | An integration environment for your research data."
+  title : "The integration environment for your research data."
   content : "Coscine provides a central hub for your research projects. It supports you to enrich research data with metadata, manage project members access and provides simple archiving processes."
 #  image_webp : "images/mobile.webp"
   image : "images/lifecycle.png"
@@ -30,8 +30,10 @@ banner_feature:
       content: "Give external partners access to all project specific research data without hassle. Social Sign-On via ORCID enables you to quickly onboard project-members from other institutions."
 
 ############################## feature ################################
+############################## currently disabled. Enable by setting boolean
+############################## flag 'enable' to true.
 feature:
-  enable : true
+  enable : false
   feature_item:
     # feature loopitem
     - title : "Metadata for all data sources"
@@ -48,13 +50,24 @@ feature:
 
 
 
+############################### promo video ###################################
+promo_video:
+  enable : true
+  title : "Watch Our Video"
+  content : "A short introduction of Coscine"
+  bg_image : "images/background/promo-video-back.jpg"
+  bg_image_webp : "images/background/promo-video-back.webp"
+  video_embed_url : "https://www.youtube.com/embed/xvYB0SB2vhw"
+
+
+
 ############################### service #################################
 service:
   enable : true
   title : "An Interface for your Research Project"
   subtitle : "Coscine helps you to stay on top of your reseach projects and all of their data sources."
-  image : "images/feature/screen.png"
-  image_webp : "images/feature/screen.webp"
+  image : "images/feature/screenshot_coscine.PNG"
+  # image_webp : "images/feature/screen2.webp"
   service_item:
     # service item loop
     - name : "Easy Data Access for Colleagues."
@@ -70,17 +83,6 @@ service:
     - name : "Advanced Metadata Management"
       icon : "tf-search3"
       content : "Enrich your data with metadata to enable searching across data sources."
-      
-
-
-############################### promo video ###################################
-promo_video:
-  enable : true
-  title : "Watch Our Video"
-  content : "A short introduction of Coscine"
-  bg_image : "images/background/promo-video-back.jpg"
-  bg_image_webp : "images/background/promo-video-back.webp"
-  video_embed_url : "https://www.youtube.com/embed/xvYB0SB2vhw"
   
 
 ############################### testimonial ###################################

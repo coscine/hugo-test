@@ -55,25 +55,13 @@ hasChildren = true
 
 	[[menu.main]]
 	parent = "Development"
-	name = "Partners"
-	URL = "partners"
-	weight = 2
-
-	[[menu.main]]
-	parent = "Development"
-	name = "Code Of Conduct"
-	URL = "code-of-conduct"
-	weight = 3
-
-	[[menu.main]]
-	parent = "Development"
 	name = "Publications"
 	URL = "publications"
 	weight = 5
 
 	[[menu.main]]
 	parent = "Development"
-	name = "SourceCode on GitLab"
+	name = "sourcecode on GitLab"
 	URL = "https://git.rwth-aachen.de/coscine"
 	weight = 7
 	
@@ -92,7 +80,7 @@ hasChildren = true
 	[[menu.main]]
 	parent = "SUPPORT"
 	name = "Documentation"
-	URL = "https://git.rwth-aachen.de/coscine"
+	URL = "https://help.itc.rwth-aachen.de/"
 	weight = 2
 
 	[[menu.main]]
@@ -104,13 +92,13 @@ hasChildren = true
 	[[menu.main]]
 	parent = "SUPPORT"
 	name = "Bug Reports"
-	URL = "https://git.rwth-aachen.de/groups/coscine/-/issues"
+	URL = "https://git.rwth-aachen.de/coscine"
 	weight = 4
 
 	[[menu.main]]
 	parent = "SUPPORT"
 	name = "Feature Requests"
-	URL = "https://git.rwth-aachen.de/groups/coscine/-/issues"
+	URL = "https://git.rwth-aachen.de/coscine"
 	weight = 5
 
 

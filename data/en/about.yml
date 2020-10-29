@@ -1,7 +1,7 @@
 ############################ our story ##############################
 our_story:
   enable: true
-  title : "The concepts behind Coscine."
+  title : "Technologies behind Coscine."
   content : "Coscine aims to provide support for research data management along the research data lifecycle. The goal is to integrate and enrich established services and workflows with metadata management rather than re-inventing existing services with minimal changes. 
   
   We think that collaborative work on data is key to scientific success. Therefore, easy access for collegues and external partners is an integral part of Coscine."
@@ -17,7 +17,15 @@ our_story:
 
     - image : "images/about/collaboration2.png"
       image_webp : "images/about/collaboration2.png"
+      
+    - image : "images/about/s3.jpg"
+      image_webp : "images/about/s3.jpg"
 
+    - image : "images/about/rdf.png"
+      image_webp : "images/about/rdf.png"
+      
+    - image : "images/about/rest.png"
+      image_webp : "images/about/rest.png"
 ############################ behind story ##############################
 behind_story:
   enable : true
@@ -35,22 +43,29 @@ about_us:
   enable : true
   about_item:
     # about item loop
+    - title : "FAIR Principles"
+      image : "images/about/fair_data.png"
+      image_webp : "images/about/fair_data.png"
+      content : "The FAIR principles are a guide to make research data open and available while allowing the researcher to maintaining ownership over his research. Coscine follows those principles and enables simple data storage solutions to become FAIR."    
+    
+    # about item loop
+    - title : "Good Scientific Practice"
+      image : "images/about/puzzle.jpg"
+      image_webp : "images/about/puzzle.webp"
+      content : "An essential basic principle of scientific work is that all scientists are honest towards themselves and others. The honest use of research results and their underlying data, facts and intellectual property forms the foundation of scientific work. This also includes proper documentation, correct and complete information about sources, and the consistent questioning of one’s own findings."
+
+    # about item loop
+    - title : "Custom Application Profiles"
+      image : "images/about/schema_short.png"
+      image_webp : "images/about/schema_short.png"
+      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing to use multiple application profiles for each project. So you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
+
+    # about item loop
     - title : "Integration of Multiple Resources"
       image : "images/about/puzzle.jpg"
       image_webp : "images/about/puzzle.webp"
       content : "Resources a are key conept in Coscine. We look at data sources and services like object store, Gitlab or cloud provider as resources that are integrated into a research project."
-      
-    # about item loop
-    - title : "FAIR Principles"
-      image : "images/about/fair_data.png"
-      image_webp : "images/about/fair_data.png"
-      content : "The FAIR principles are a guide to make research data open and available while allowing the researcher to maintaining ownership over his research. Coscine follows those principles and enables simple data storage solutions to become FAIR."
 
-    # about item loop
-    - title : "Application Profiles for Your Needs"
-      image : "images/about/schema_short.png"
-      image_webp : "images/about/schema_short.png"
-      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing to use multiple application profiles for each project. So you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
 ############################ quote slider ##############################
 quote_slider:
   enable : false
@@ -67,7 +82,6 @@ clients_logo_slider:
   title : "Pilot partners"
   logos :
    - "images/about/it-center.png"
-   - "images/about/fdm-nrw.png"
    - "images/about/1382.png"
    - "images/about/1394.png"
 
@@ -95,7 +109,7 @@ investors :
 ############################ call to action ##############################
 call_to_action:
   enable : true
-  title : "You can become part of the development process"
+  title : "You can become part of the process"
   content : "To develop Coscine we depend on feedback from researchers. No matter if you are a junior researcher or in a senior position with a more managerial perspective, we appreciate input and requirements provided by all our users. 
   
   
