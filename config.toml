@@ -61,7 +61,7 @@ hasChildren = true
 
 	[[menu.main]]
 	parent = "Development"
-	name = "sourcecode on GitLab"
+	name = "Sourcecode on GitLab"
 	URL = "https://git.rwth-aachen.de/coscine"
 	weight = 7
 	
@@ -156,33 +156,17 @@ map_marker = "images/marker.png"
 
 ########################### social icon ############################
 
-#[[params.social]]
-#icon = "tf-ion-social-facebook"
-#URL = "https://www.facebook.com/itcenterrwth"
-
-#[[params.social]]
-#icon = "tf-ion-social-twitter"
-#URL = "https://www.twitter.com/itcenterrwth/"
-
-#[[params.social]]
-#icon = "tf-ion-social-instagram"
-#URL = "https://www.instagram.com/rwthaachenuniversity/"
-
-
-# Broken! Doesn't even work out of the box with sample configuration.
-#
-
 [[params.social]]
 icon = "tf-ion-social-facebook"
-URL = "https://facebook.com/themefisher"
+URL = "https://www.facebook.com/itcenterrwth"
 
 [[params.social]]
 icon = "tf-ion-social-twitter"
-URL = "https://twitter.com/themefisher"
+URL = "https://www.twitter.com/itcenterrwth/"
 
 [[params.social]]
 icon = "tf-ion-social-instagram"
-URL = "https://instagram.com/themefisher"
+URL = "https://www.instagram.com/rwthaachenuniversity/"
 
 
 ################################### English language #####################################
