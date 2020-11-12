@@ -4,6 +4,9 @@
 
 
 {{ "<!-- Behind Story -->" | safeHTML }}
+
+
+<!-- UNCOMMENT ME FOR OLD STYLE
 {{ if $data.about.behind_story.enable }}
 {{ with $data.about.behind_story }}
 <section class="section">
@@ -13,6 +16,32 @@
         <div class="section-title mb-0">
           <h2>{{ .title | safeHTML | markdownify }}</h2>
           <p>{{ .content | safeHTML | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+-->
+{{ if $data.about.behind_story.enable }}
+{{ with $data.about.behind_story }}
+<section class="section about p-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 align-self-center">
+        <div class="content">
+          <h2>{{ .title | safeHTML | markdownify }}</h2>
+          <p>{{ .content | safeHTML | markdownify }}</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about-slider owl-carousel owl-theme">
+          {{ range .image_slider }}
+          <div class="item">
+            <img src="{{ .image_webp | absURL }}" style="width: 85%" onerror="this.onerror=null;this.src='{{ .image | absURL }}'">
+          </div>
+          {{ end }}
         </div>
       </div>
     </div>

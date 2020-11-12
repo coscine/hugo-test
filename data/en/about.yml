@@ -6,18 +6,6 @@ our_story:
   
   We think that collaborative work on data is key to scientific success. Therefore, easy access for collegues and external partners is an integral part of Coscine."
   image_slider:
-    - image : "images/about/life_cycle_eng.png"
-      image_webp : "images/about/life_cycle_eng.png"
-
-    - image : "images/about/metadata3.png"
-      image_webp : "images/about/metadata3.png"
-      
-    - image : "images/about/sharing2.png"
-      image_webp : "images/about/sharing2.png"
-
-    - image : "images/about/collaboration2.png"
-      image_webp : "images/about/collaboration2.png"
-      
     - image : "images/about/s3.jpg"
       image_webp : "images/about/s3.jpg"
 
@@ -37,6 +25,19 @@ behind_story:
   
   
   Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable natively digital research processes."
+
+  image_slider:
+    - image : "images/about/life_cycle_eng.png"
+      image_webp : "images/about/life_cycle_eng.png"
+
+    - image : "images/about/metadata3.png"
+      image_webp : "images/about/metadata3.png"
+      
+    - image : "images/about/sharing2.png"
+      image_webp : "images/about/sharing2.png"
+
+    - image : "images/about/collaboration2.png"
+      image_webp : "images/about/collaboration2.png"
 
 ############################ about us ##############################
 about_us:
