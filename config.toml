@@ -124,9 +124,9 @@ URL = "faq"
 ########################### Default parameters ###########################
 [params]
 # main logo
-logo = "images/rwth_coscine_rgb.svg"
+logo = "images/logo/rwth_coscine_rgb.svg"
 # footer logo
-logo_light = "images/logo-alt-resized.png"
+logo_light = "images/logo/logo-alt.png"
 home = "Home"
 # Meta data
 description = "Coscine landing page"

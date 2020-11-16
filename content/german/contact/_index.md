@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
 draft: false
-description : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
+description : "We rely on user feedback, so do not hesitate to contact us. If you are interested in using Coscine at your institution give us a call or use the provided e-mail."
 ---
 

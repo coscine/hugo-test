@@ -7,7 +7,7 @@ team_large:
       image : "images/team/politze.jpg"
       image_webp : "images/team/politze.jpg"
       designation : "Group leader & software architect"
-      content : "Marius Politze is responsible to lead the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management."
+      content : "Marius Politze is responsible for leading the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management."
       social:
         - icon : "tf-ion-social-facebook"
           link : "#"

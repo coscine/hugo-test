@@ -1,6 +1,7 @@
 ---
-title: "About Small Apps"
+title: "About Coscine"
 draft: false
-description : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
+description : "Coscine is designed to integrate services for research data management into a single platform. It enables researchers to manage multiple data sources such as gitlab or RDS object store for research data per project and offers enrichment with metadata support good scientific pratices.
+Furthermore it integrates a simple access management to include external partners into your research projects. "
 ---
 

@@ -2,103 +2,92 @@
 banner:
   enable : true
   background_shapes : true
-  title : "Showcase your app with Small Apps"
-  content : "Besides its beautiful design. Laapp is an incredibly rich core framework for you to showcase your App."
-  image_webp : "images/mobile.webp"
-  image : "images/mobile.png"
+  title : "The integration environment for your research data."
+  content : "Coscine provides a central hub for your research projects. It supports you to enrich research data with metadata, manage project members access and provides simple archiving processes."
+#  image_webp : "images/mobile.webp"
+  image : "images/homepage/lifecycle.png"
   button:
-    label : "Download Now"
-    link : "#"
+    label : "Sign in"
+    link : "https://coscine.rwth-aachen.de"
     
 ######################## banner-feature ###########################
 banner_feature:
   enable : true
   feature_item:
     # feature item loop
-    - icon: "tf-ion-paintbucket"
-      title: "themes made easy"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias."
+    - icon: "tf-layers"
+      title: "Integrate your data sources"
+      content: "Coscine currently integrates Gitlab and S3-compatible object storage to give you a central project-hub for your code and research data."
       
     # feature item loop
-    - icon: "tf-ion-load-b"
-      title: "powerful design"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias."
+    - icon: "tf-documents5"
+      title: "Manage your metadata"
+      content: "Your favorite services may not support the metadata management that is needed in scientific envirnments. Coscine adds a layer of metadata management to external services to help you with good scientific practice."
       
     # feature item loop
-    - icon: "tf-ion-ios-lightbulb"
-      title: "creative content"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias."
+    - icon: "tf-ion-android-people"
+      title: "Manage access for project partners"
+      content: "Give external partners access to all project specific research data without hassle. Social Sign-On via ORCID enables you to quickly get project-members from other institutions on board."
 
 ############################## feature ################################
+############################## currently disabled. Enable by setting boolean
+############################## flag 'enable' to true.
 feature:
-  enable : true
+  enable : false
   feature_item:
     # feature loopitem
-    - title : "Increase your productivity with Small Apps"
-      image : "images/feature/feature-new-01.jpg"
-      image_webp : "images/feature/feature-new-01.webp"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    - title : "Metadata for all data sources"
+      image : "images/homepage/metadata3.png"
+      image_webp : "images/homepage/metadata3.png"
+      content : "Coscine enables different data sources with a common metadata management."
       # quoted text
       quote:
-        enable : true
+        enable : false
         name : "Jonathon Andrew , Themefisher.com"
         avater : "images/testimonial/feature-testimonial-thumb.jpg"
         comment : "InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one place."
 
-    # feature loopitem
-    - title : "Increase your productivity with Small Apps"
-      image : "images/feature/feature-new-02.jpg"
-      image_webp : "images/feature/feature-new-02.webp"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-      # quoted text
-      quote:
-        enable : true
-        name : "Jonathon Andrew , Themefisher.com"
-        avater : "images/testimonial/feature-testimonial-thumb.jpg"
-        comment : "InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one place."
+
+
+
+############################### promo video ###################################
+promo_video:
+  enable : true
+  title : "Watch Our Video"
+  content : "A short introduction of Coscine"
+  bg_image : "images/background/promo-video-back.jpg"
+  bg_image_webp : "images/background/promo-video-back.webp"
+  video_embed_url : "https://www.youtube.com/embed/xvYB0SB2vhw"
+
 
 
 ############################### service #################################
 service:
   enable : true
-  title : "An Interface For Lifestyle"
-  subtitle : "Small Apps makes it easy to stay on top of your Life Style. No late tasks. No gimmicks."
-  image : "images/feature/iphone-ipad.jpg"
-  image_webp : "images/feature/iphone-ipad.webp"
+  title : "An Interface for your Research Project"
+  subtitle : "Coscine helps you to stay on top of your reseach projects and all of their data sources."
+  image : "images/feature/laptop.png"
+  # image_webp : "images/feature/screen2.webp"
   service_item:
     # service item loop
-    - name : "Easy Prototyping"
-      icon : "tf-ribbon"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
+    - name : "Easy Data Access for Colleagues."
+      icon : "tf-ion-ios-people-outline"
+      content : "Your can easily give new project members access to all relevant data sources; even if they are working at another institution."
       
     # service item loop
-    - name : "Sensor Bridge"
+    - name : "Make your Data FAIR"
       icon : "tf-puzzle"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
+      content : "You can use common services and data sources; Coscine helps you to make them FAIR."
       
     # service item loop
-    - name : "Strategist"
-      icon : "tf-bargraph"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
-      
-    # service item loop
-    - name : "Art Direction"
-      icon : "tf-adjustments"
-      content : "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui"
-
-############################### promo video ###################################
-promo_video:
-  enable : true
-  title : "Watch Our Promo Video"
-  content : "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus"
-  bg_image : "images/background/promo-video-back.jpg"
-  bg_image_webp : "images/background/promo-video-back.webp"
-  video_embed_url : "https://www.youtube.com/embed/ResipmZmpDU"
+    - name : "Advanced Metadata Management"
+      icon : "tf-search3"
+      content : "Enrich your data with metadata to enable searching across data sources."
   
 
 ############################### testimonial ###################################
 testimonial:
-  enable : true
+  enable : false
   testimonial_item:
     # testimonial loop item
     - name: "Abraham Linkon , Themefisher.com"
@@ -109,31 +98,14 @@ testimonial:
     - name: "Abraham Linkon , Themefisher.com"
       image: "images/testimonial/feature-testimonial-thumb.jpg"
       content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
-      
-    # testimonial loop item
-    - name: "Abraham Linkon , Themefisher.com"
-      image: "images/testimonial/feature-testimonial-thumb.jpg"
-      content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
-      
-    # testimonial loop item
-    - name: "Abraham Linkon , Themefisher.com"
-      image: "images/testimonial/feature-testimonial-thumb.jpg"
-      content : "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+
 
 ############################### download ###################################
 download:
   enable : true
-  title : "It's Time to change your mind"
-  subtitle : "Download over 2 million humans .Get Small Apps free forever! <br>We say you won’t look back."
+  title : "We are in our open pilot phase"
+  subtitle : "You can already log-in and see if Coscine fits your needs."
   download_buttons :
-    - label : "Iphone"
-      icon : "tf-ion-social-apple"
-      link : "#"
-      
-    - label : "Android"
-      icon : "tf-ion-social-android"
-      link : "#"
-      
-    - label : "Windows"
-      icon : "tf-ion-social-windows"
-      link : "#"
+    - label : "Sign in"
+      icon : " tf-ion-log-in"
+      link : "https://coscine.rwth-aachen.de"

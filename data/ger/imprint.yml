@@ -1,0 +1,38 @@
+privacy:
+  # privacy item loop
+  - name : "Publisher"
+    content : "Published on behalf of the Rector of RWTH Aachen University
+    
+    
+            RWTH Aachen University
+
+
+            Templergraben 55
+
+
+            52062 Aachen (street address)
+
+
+            52056 Aachen (mailing address)  
+
+
+
+
+            Phone: +49 241 80 1
+
+
+            Fax: +49 241 80 92312
+
+
+            Email: impressum@rwth-aachen.de
+
+
+RWTH Aachen University is a public institution represented by the Rector, Univ.-Prof. Dr. rer. nat. Dr. h.c. mult. Ulrich Rüdiger."
+              
+  # privacy item loop
+  - name : "Regulatory Authority"
+    content : "The Ministry of Culture and Science of the Federal State of North Rhine-Westphalia, Völklinger Straße 49, 40221 Düsseldorf."
+
+  # privacy item loop 
+  - name : "Sales Tax Identification Number"
+    content : "In accordance with § 27 Sales Tax Law: DE 121689807"

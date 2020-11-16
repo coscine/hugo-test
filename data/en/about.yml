@@ -21,10 +21,10 @@ behind_story:
   content : "Our approach is to integrate and enrich established services and workflows. 
   
   
-  We do not want to break or re-invent processes but try to provide additional value by connecting otherwise separate services. To achieve this, we leverage contextual information provided by local identidy management services, publicly available organizational information and stadardized interfaces for access management. 
+  We do not want to break or re-invent processes but rather try to provide additional value by connecting otherwise separate services. To achieve this, we leverage contextual information provided by local identity management services, publicly available organizational information and stadardized interfaces for access management. 
   
   
-  Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable natively digital research processes."
+  Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable a native digital research process."
 
   image_slider:
     - image : "images/about/life_cycle_eng.png"
@@ -47,7 +47,7 @@ about_us:
     - title : "FAIR Principles"
       image : "images/about/fair_data.png"
       image_webp : "images/about/fair_data.png"
-      content : "The FAIR principles are a guide to make research data open and available while allowing the researcher to maintaining ownership over his research. Coscine follows those principles and enables simple data storage solutions to become FAIR."    
+      content : "The FAIR principles are a guide to make research data open and available while at the same time allowing the researcher to maintain ownership over their research. Coscine follows those principles and enables simple data storage solutions to become FAIR."    
     
     # about item loop
     - title : "Good Scientific Practice"
@@ -59,7 +59,7 @@ about_us:
     - title : "Custom Application Profiles"
       image : "images/about/schema_short.png"
       image_webp : "images/about/schema_short.png"
-      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing to use multiple application profiles for each project. So you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
+      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing the use of multiple application profiles for each project. Thus you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
 
     # about item loop
     - title : "Integration of Multiple Resources"

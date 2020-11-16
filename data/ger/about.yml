@@ -1,43 +1,75 @@
 ############################ our story ##############################
 our_story:
   enable: true
-  title : "This is our story."
-  content : "We’re here for those who refuse to settle. Who never stop moving forwards. Who continue to search for new ideas and better experiences in everything they do. Because today’s hyper-connected world deserves a financial partner just as progressive.One that adapts to your needs, gives you control and constantly pushes you into new exciting spaces."
+  title : "Technologies behind Coscine."
+  content : "Coscine aims to provide support for research data management along the research data lifecycle. The goal is to integrate and enrich established services and workflows with metadata management rather than re-inventing existing services with minimal changes. 
+  
+  We think that collaborative work on data is key to scientific success. Therefore, easy access for collegues and external partners is an integral part of Coscine."
   image_slider:
-    - image : "images/about/slider-1.jpg"
-      image_webp : "images/about/slider-1.webp"
+    - image : "images/about/s3.jpg"
+      image_webp : "images/about/s3.jpg"
 
-    - image : "images/about/slider-2.jpg"
-      image_webp : "images/about/slider-2.webp"
+    - image : "images/about/rdf.png"
+      image_webp : "images/about/rdf.png"
       
-    - image : "images/about/slider-3.jpg"
-      image_webp : "images/about/slider-3.webp"
-
+    - image : "images/about/rest.png"
+      image_webp : "images/about/rest.png"
 ############################ behind story ##############################
 behind_story:
   enable : true
-  title : "Why we created Small Apps"
-  content : "Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Proin eget tortor risus. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat."
+  title : "What is an Integration Environment?"
+  content : "Our approach is to integrate and enrich established services and workflows. 
+  
+  
+  We do not want to break or re-invent processes but rather try to provide additional value by connecting otherwise separate services. To achieve this, we leverage contextual information provided by local identity management services, publicly available organizational information and stadardized interfaces for access management. 
+  
+  
+  Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable a native digital research process."
+
+  image_slider:
+    - image : "images/about/life_cycle_eng.png"
+      image_webp : "images/about/life_cycle_eng.png"
+
+    - image : "images/about/metadata3.png"
+      image_webp : "images/about/metadata3.png"
+      
+    - image : "images/about/sharing2.png"
+      image_webp : "images/about/sharing2.png"
+
+    - image : "images/about/collaboration2.png"
+      image_webp : "images/about/collaboration2.png"
 
 ############################ about us ##############################
 about_us:
   enable : true
   about_item:
     # about item loop
-    - title : "Our Story"
-      image : "images/about/story.jpg"
-      image_webp : "images/about/story.webp"
-      content : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
-      
+    - title : "FAIR Principles"
+      image : "images/about/fair_data.png"
+      image_webp : "images/about/fair_data.png"
+      content : "The FAIR principles are a guide to make research data open and available while at the same time allowing the researcher to maintain ownership over their research. Coscine follows those principles and enables simple data storage solutions to become FAIR."    
+    
     # about item loop
-    - title : "What we do"
-      image : "images/about/plan.jpg"
-      image_webp : "images/about/plan.webp"
-      content : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    - title : "Good Scientific Practice"
+      image : "images/about/puzzle.jpg"
+      image_webp : "images/about/puzzle.webp"
+      content : "An essential basic principle of scientific work is that all scientists are honest towards themselves and others. The honest use of research results and their underlying data, facts and intellectual property forms the foundation of scientific work. This also includes proper documentation, correct and complete information about sources, and the consistent questioning of one’s own findings."
+
+    # about item loop
+    - title : "Custom Application Profiles"
+      image : "images/about/schema_short.png"
+      image_webp : "images/about/schema_short.png"
+      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing the use of multiple application profiles for each project. Thus you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
+
+    # about item loop
+    - title : "Integration of Multiple Resources"
+      image : "images/about/puzzle.jpg"
+      image_webp : "images/about/puzzle.webp"
+      content : "Resources a are key conept in Coscine. We look at data sources and services like object store, Gitlab or cloud provider as resources that are integrated into a research project."
 
 ############################ quote slider ##############################
 quote_slider:
-  enable : true
+  enable : false
   slider_item : 
     - quote : "Behind every great product, there is a great mind."
       quote_by : "TechCrunch"
@@ -48,16 +80,15 @@ quote_slider:
 ############################ clients slider ##############################
 clients_logo_slider: 
   enable : true
-  title : "Featured In"
+  title : "Pilot partners"
   logos :
-   - "images/clients/business-finder.png"
-   - "images/clients/forbes.png"
-   - "images/clients/venture-beat.png"
-   - "images/clients/tech-crunch-new.png"
+   - "images/about/it-center.png"
+   - "images/about/1382.png"
+   - "images/about/1394.png"
 
 ############################ investors ##############################
 investors :
-  enable : true
+  enable : false
   title : "Our Angel Investors"
   description : "Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
   investor :
@@ -73,48 +104,18 @@ investors :
       image_webp : "images/team/marketing-team-02.webp"
       designation : "CEO"
       
-      # investor item loop
-    - name : "Erica Gems"
-      image : "images/team/marketing-team-03.jpg"
-      image_webp : "images/team/marketing-team-03.webp"
-      designation : "Director"
-      
-      # investor item loop
-    - name : "Scarlet"
-      image : "images/team/design-team-01.jpg"
-      image_webp : "images/team/design-team-01.webp"
-      designation : "Investor"
-      
-      # investor item loop
-    - name : "Dastin Juke"
-      image : "images/team/design-team-02.jpg"
-      image_webp : "images/team/design-team-02.webp"
-      designation : "Investor"
-      
-      # investor item loop
-    - name : "Nancy Gomez"
-      image : "images/team/design-team-03.jpg"
-      image_webp : "images/team/design-team-03.webp"
-      designation : "Marketer"
-      
-      # investor item loop
-    - name : "Barbara"
-      image : "images/team/team-1.jpg"
-      image_webp : "images/team/team-1.webp"
-      designation : "Investor"
-      
-      # investor item loop
-    - name : "Lucas Klark"
-      image : "images/team/team-2.jpg"
-      image_webp : "images/team/team-2.webp"
-      designation : "Developer"
+          
+
 
 ############################ call to action ##############################
 call_to_action:
   enable : true
-  title : "Become a patron– join a creator's page"
-  content : "Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+  title : "You can become part of the process"
+  content : "To develop Coscine we depend on feedback from researchers. No matter if you are a junior researcher or in a senior position with a more managerial perspective, we appreciate input and requirements provided by all our users. 
+  
+  
+  If you are not a user yet and are considering if Coscine is the right tool for you, feel free to contact us. We will get back to you and see if Coscine fits your needs (yet)."
   button:
     enable : true
-    label : "join the team"
-    link : "#"
+    label : "Get in contact"
+    link : "mailto:servicedesk@itc.rwth-aachen.de"

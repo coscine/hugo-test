@@ -5,7 +5,7 @@ banner:
   title : "The integration environment for your research data."
   content : "Coscine provides a central hub for your research projects. It supports you to enrich research data with metadata, manage project members access and provides simple archiving processes."
 #  image_webp : "images/mobile.webp"
-  image : "images/lifecycle.png"
+  image : "images/homepage/lifecycle.png"
   button:
     label : "Sign in"
     link : "https://coscine.rwth-aachen.de"
@@ -22,12 +22,12 @@ banner_feature:
     # feature item loop
     - icon: "tf-documents5"
       title: "Manage your metadata"
-      content: "Your favorite services may not support metadata management that is needed in scientific envirnments. Coscine adds a layer of metadata management to external services to help you with good scientific practice."
+      content: "Your favorite services may not support the metadata management that is needed in scientific envirnments. Coscine adds a layer of metadata management to external services to help you with good scientific practice."
       
     # feature item loop
     - icon: "tf-ion-android-people"
       title: "Manage access for project partners"
-      content: "Give external partners access to all project specific research data without hassle. Social Sign-On via ORCID enables you to quickly onboard project-members from other institutions."
+      content: "Give external partners access to all project specific research data without hassle. Social Sign-On via ORCID enables you to quickly get project-members from other institutions on board."
 
 ############################## feature ################################
 ############################## currently disabled. Enable by setting boolean
@@ -37,8 +37,8 @@ feature:
   feature_item:
     # feature loopitem
     - title : "Metadata for all data sources"
-      image : "images/metadata3.png"
-      image_webp : "images/metadata3.png"
+      image : "images/homepage/metadata3.png"
+      image_webp : "images/homepage/metadata3.png"
       content : "Coscine enables different data sources with a common metadata management."
       # quoted text
       quote:
@@ -66,7 +66,7 @@ service:
   enable : true
   title : "An Interface for your Research Project"
   subtitle : "Coscine helps you to stay on top of your reseach projects and all of their data sources."
-  image : "images/feature/screenshot_coscine.PNG"
+  image : "images/feature/laptop.png"
   # image_webp : "images/feature/screen2.webp"
   service_item:
     # service item loop

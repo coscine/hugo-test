@@ -1,6 +1,6 @@
 ---
-title: "Our Team"
+title: "Meet the People Behind Coscine"
 draft: false
-description : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
+description : "The Coscine development team - a part of the cross-institutional RDM team from RWTH Aachen University."
 ---
 
