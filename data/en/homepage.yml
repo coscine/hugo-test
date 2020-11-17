@@ -22,7 +22,7 @@ banner_feature:
     # feature item loop
     - icon: "tf-documents5"
       title: "Manage your metadata"
-      content: "Your favorite services may not support the metadata management that is needed in scientific envirnments. Coscine adds a layer of metadata management to external services to help you with good scientific practice."
+      content: "Your favorite services may not support the metadata management that is needed in scientific environments. Coscine adds a layer of metadata management to external services to help you with good scientific practice."
       
     # feature item loop
     - icon: "tf-ion-android-people"

@@ -2,12 +2,12 @@
 banner:
   enable : true
   background_shapes : true
-  title : "The integration environment for your research data."
-  content : "Coscine provides a central hub for your research projects. It supports you to enrich research data with metadata, manage project members access and provides simple archiving processes."
+  title : "Die Integrationsumgebung für Ihre Forschungsdaten."
+  content : "Coscine ist die zentrale Anlaufstelle für Ihre Forschungsprojekte. Es unterstützt Sie bei der Vergabe von Metadaten, dem Management von Projektmitgliedern und der Archivierung mittels eines einfach zu bedienenden Archivierungsprozesses."
 #  image_webp : "images/mobile.webp"
   image : "images/homepage/lifecycle.png"
   button:
-    label : "Sign in"
+    label : "Jetzt einloggen"
     link : "https://coscine.rwth-aachen.de"
     
 ######################## banner-feature ###########################
@@ -16,18 +16,18 @@ banner_feature:
   feature_item:
     # feature item loop
     - icon: "tf-layers"
-      title: "Integrate your data sources"
-      content: "Coscine currently integrates Gitlab and S3-compatible object storage to give you a central project-hub for your code and research data."
+      title: "Integrieren Sie Ihre Datenquellen"
+      content: "Coscine integriert aktuell GitLab und S3-kompatiblen object storage um Ihnen eine zentrale Anlaufstelle für Ihren Code und Ihre Forschungsdaten zu bieten."
       
     # feature item loop
     - icon: "tf-documents5"
-      title: "Manage your metadata"
-      content: "Your favorite services may not support the metadata management that is needed in scientific envirnments. Coscine adds a layer of metadata management to external services to help you with good scientific practice."
+      title: "Verwalten Sie Ihre Metadaten"
+      content: "Die von Ihnen verwendeten Dienste unterstützen gegebenenfalls nicht das Metadatenmanagement, das für Ihre wissenschaftliche Anwendung relevant ist. Coscine erweitert externe Dienste um eine Schicht Metadatenmanagement um Sie bei der Wahrung guter wissenschaftlicher Praxis zu unterstützen."
       
     # feature item loop
     - icon: "tf-ion-android-people"
-      title: "Manage access for project partners"
-      content: "Give external partners access to all project specific research data without hassle. Social Sign-On via ORCID enables you to quickly get project-members from other institutions on board."
+      title: "Verwalten Sie Zugriff für Projektpartner"
+      content: "Gewähren Sie externen Partnern unkompliziert Zugriff auf alle projektspezifischen Forschungsdaten. Die Anmeldung über ORCID ermöglicht Ihnen Projektmitglieder von anderen Institutionen zügig an Bord zu holen."
 
 ############################## feature ################################
 ############################## currently disabled. Enable by setting boolean
@@ -53,8 +53,8 @@ feature:
 ############################### promo video ###################################
 promo_video:
   enable : true
-  title : "Watch Our Video"
-  content : "A short introduction of Coscine"
+  title : "Unser Video"
+  content : "Eine kurze Einführung in Coscine"
   bg_image : "images/background/promo-video-back.jpg"
   bg_image_webp : "images/background/promo-video-back.webp"
   video_embed_url : "https://www.youtube.com/embed/xvYB0SB2vhw"
@@ -64,25 +64,25 @@ promo_video:
 ############################### service #################################
 service:
   enable : true
-  title : "An Interface for your Research Project"
-  subtitle : "Coscine helps you to stay on top of your reseach projects and all of their data sources."
+  title : "Ein Interface für Ihr Forschungsprojekt"
+  subtitle : "Coscine hilft Ihnen den Überblick über Ihre Forschungsprojekte und deren Datenquellen zu behalten."
   image : "images/feature/laptop.png"
   # image_webp : "images/feature/screen2.webp"
   service_item:
     # service item loop
-    - name : "Easy Data Access for Colleagues."
+    - name : "Unkomplizierter Datenzugriff."
       icon : "tf-ion-ios-people-outline"
-      content : "Your can easily give new project members access to all relevant data sources; even if they are working at another institution."
+      content : "Neuen Projektmitgliedern können Sie auf einfache Weise Zugriff auf alle relevante Datenquellen gewähren; selbst wenn diese an einer anderen Institution arbeiten."
       
     # service item loop
-    - name : "Make your Data FAIR"
+    - name : "Machen Sie Ihren Daten FAIR"
       icon : "tf-puzzle"
-      content : "You can use common services and data sources; Coscine helps you to make them FAIR."
+      content : "Sie können geläufige Dienste und Daten nutzen; Coscine hilft Ihnen dabei stets die FAIR Prinzipien zu wahren."
       
     # service item loop
-    - name : "Advanced Metadata Management"
+    - name : "Modernes Metadatenmanagement"
       icon : "tf-search3"
-      content : "Enrich your data with metadata to enable searching across data sources."
+      content : "Beschreiben Sie Ihre Daten mit Metadaten um die Suche über mehrere Datenquellen zu ermöglichen."
   
 
 ############################### testimonial ###################################
@@ -103,8 +103,8 @@ testimonial:
 ############################### download ###################################
 download:
   enable : true
-  title : "We are in our open pilot phase"
-  subtitle : "You can already log-in and see if Coscine fits your needs."
+  title : "Wir sind aktuell in unserer Pilotphase"
+  subtitle : "Testen Sie Coscine und finden Sie heraus, ob wir Ihre Erwartungen erfüllen können, indem Sie sich jetzt einloggen."
   download_buttons :
     - label : "Sign in"
       icon : " tf-ion-log-in"
