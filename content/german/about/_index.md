@@ -1,7 +1,7 @@
 ---
-title: "About Coscine"
+title: "Über Coscine"
 draft: false
-description : "Coscine is designed to integrate services for research data management into a single platform. It enables researchers to manage multiple data sources such as gitlab or RDS object store for research data per project and offers enrichment with metadata support good scientific pratices.
-Furthermore it integrates a simple access management to include external partners into your research projects. "
+description : "Coscine ist dazu konzipiert, Dienste im Forschungsdatenmanagement in eine alleinstehende Plattform zu integrieren. Es erlaubt Wissenschaftlern mehrere Datenquellen wie GitLab oder FDS Object Store für Forschungsdaten pro Projekt zu verwalten und erlaubt darüber hinaus das Hinzufügen von Metadaten um die Einhaltung guter wissenschaftlicher Praxis zu fördern.
+Daneben integriert es ein einfaches Zugriffsmanagement um auch externe Partner in Ihre Forschungsprojekte mit einzubeziehen."
 ---
 

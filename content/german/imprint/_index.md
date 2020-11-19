@@ -1,5 +1,5 @@
 ---
-title: "Site Credits"
+title: "Impressum"
 draft: false
 ---
 

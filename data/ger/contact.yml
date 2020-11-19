@@ -1,13 +1,13 @@
 privacy:
               
   # privacy item loop
-  - name : "Privacy Policy"
+  - name : "Datenschutzerklärung"
     content : "https://git.rwth-aachen.de/coscine/terms/-/blob/master/PrivacyPolicy.md"
     
     # privacy item loop
-  - name : "Terms of Use"
+  - name : "Nutzungsbedingungen"
     content : "https://git.rwth-aachen.de/coscine/terms/-/blob/master/TermsOfUse.md"  
      
   # privacy item loop 
-  - name : "Imprint"
+  - name : "Impressum"
     content : "https://www.itc.rwth-aachen.de/cms/IT-Center/Footer/Service/~epvv/Impressum/"

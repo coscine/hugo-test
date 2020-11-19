@@ -1,7 +1,7 @@
 privacy:
   # privacy item loop
-  - name : "Publisher"
-    content : "Published on behalf of the Rector of RWTH Aachen University
+  - name : "Herausgeber"
+    content : "Herausgegeben im Auftrag des Rektors der RWTH Aachen
     
     
             RWTH Aachen University
@@ -10,29 +10,29 @@ privacy:
             Templergraben 55
 
 
-            52062 Aachen (street address)
+            52062 Aachen (Anschrift)
 
 
-            52056 Aachen (mailing address)  
+            52056 Aachen (Postanschrift)  
 
 
 
 
-            Phone: +49 241 80 1
+            Tel: +49 241 80 1
 
 
             Fax: +49 241 80 92312
 
 
-            Email: impressum@rwth-aachen.de
+            E-Mail: impressum@rwth-aachen.de
 
 
-RWTH Aachen University is a public institution represented by the Rector, Univ.-Prof. Dr. rer. nat. Dr. h.c. mult. Ulrich Rüdiger."
+Die RWTH Aachen University ist eine Körperschaft des öffentlichen Rechts. Sie wird durch den Rektor, Univ.-Prof. Dr. rer. nat. Dr. h.c. mult. Ulrich Rüdiger, vertreten."
               
   # privacy item loop
-  - name : "Regulatory Authority"
-    content : "The Ministry of Culture and Science of the Federal State of North Rhine-Westphalia, Völklinger Straße 49, 40221 Düsseldorf."
+  - name : "Zuständige Aufsichtsbehörde"
+    content : "Ministerium für Kultur und Wissenschaft des Landes Nordrhein Westfalen, Völklinger Straße 49, 40221 Düsseldorf."
 
   # privacy item loop 
-  - name : "Sales Tax Identification Number"
-    content : "In accordance with § 27 Sales Tax Law: DE 121689807"
+  - name : "Umsatzsteuer-Identifikationsnummer"
+    content : "Gemäß § 27 a Umsatzsteuergesetz: DE 121689807"

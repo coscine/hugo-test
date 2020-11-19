@@ -1,6 +1,6 @@
 ---
-title: "Meet the People Behind Coscine"
+title: "Lernen Sie die Menschen hinter Coscine kennen"
 draft: false
-description : "The Coscine development team - a part of the cross-institutional RDM team from RWTH Aachen University."
+description : "Das Entwicklerteam - ein Teil des Inter-Institutionellen Forschungsdatenmanagementteams der RWTH Aachen."
 ---
 

@@ -1,10 +1,10 @@
 ############################ our story ##############################
 our_story:
   enable: true
-  title : "Technologies behind Coscine."
-  content : "Coscine aims to provide support for research data management along the research data lifecycle. The goal is to integrate and enrich established services and workflows with metadata management rather than re-inventing existing services with minimal changes. 
+  title : "Technologien hinter Coscine"
+  content : "Coscine bietet Unterstützung bezüglich Forschungsdatenmanagement entlang des Forschungsdaten-Lebenszyklus. Das Ziel ist die Integration und Erweiterung bestehender Dienste und Workflows mit Metadatenmanagement anstatt die Neuerfindung bereits existierender Dienste mit minimalen Änderungen. 
   
-  We think that collaborative work on data is key to scientific success. Therefore, easy access for collegues and external partners is an integral part of Coscine."
+  Wir sind überzeugt, dass kollaborative Arbeit an Daten der Schlüssel zu wissenschaftlichem Erfolg ist. Aus diesem Grund ist es uns ein besonderes Anliegen einfachen Zugang zu coscine für Kollegen und externe Partner zu ermöglichen."
   image_slider:
     - image : "images/about/s3.jpg"
       image_webp : "images/about/s3.jpg"
@@ -17,14 +17,15 @@ our_story:
 ############################ behind story ##############################
 behind_story:
   enable : true
-  title : "What is an Integration Environment?"
-  content : "Our approach is to integrate and enrich established services and workflows. 
+  title : "Was ist eine Integrationsumgebung?"
+  content : "Unser Vorhaben ist etablierte Dienste und Workflows zu integrieren und zu erweitern.
   
   
-  We do not want to break or re-invent processes but rather try to provide additional value by connecting otherwise separate services. To achieve this, we leverage contextual information provided by local identity management services, publicly available organizational information and stadardized interfaces for access management. 
+  Wir beabsichtigen nicht bestehende Prozesse neu zu erfinden sondern möchten zusätzliche Werte schaffen indem wir ansonsten seperate Dienste miteinader verbinden. Um dies zu erreichen nutzen wir Kontextinformationen lokaler idm Dienste, öffentlich zugängliche org. Informationen und standardisierte Interfaces für Zugangsmanagement.
   
   
-  Ultimately we strive to enable researchers to not only fullfill the requirements of good scientific practice but to enable a native digital research process."
+  Letzen Endes sind wir bestrebt, nicht nur Wissenschaftler dazu zu befähigen ihre Auflagen hinsichtlich guter wissenschaftlicher Praxis zu erfüllen sondern einen nativ digitalen Forschungsprozess ins Leben zu rufen."
+  
 
   image_slider:
     - image : "images/about/life_cycle_eng.png"
@@ -44,28 +45,29 @@ about_us:
   enable : true
   about_item:
     # about item loop
-    - title : "FAIR Principles"
+    - title : "FAIR Prinzipien"
       image : "images/about/fair_data.png"
       image_webp : "images/about/fair_data.png"
-      content : "The FAIR principles are a guide to make research data open and available while at the same time allowing the researcher to maintain ownership over their research. Coscine follows those principles and enables simple data storage solutions to become FAIR."    
+      content : "Die FAIR Prinzipien sind ein Leitfaden um Forschungsdaten frei zugänglich zu machen und gleichzeitig dem Wissenschaftler die Inhaberschafter über seine Daten zu garantieren. Coscine folgt diesen Prinzipien und erlaubt simplen Datenspeicherlösungen FAIR zu werden."
+      
     
     # about item loop
-    - title : "Good Scientific Practice"
+    - title : "Gute wissenschaftliche Praxis"
       image : "images/about/puzzle.jpg"
       image_webp : "images/about/puzzle.webp"
-      content : "An essential basic principle of scientific work is that all scientists are honest towards themselves and others. The honest use of research results and their underlying data, facts and intellectual property forms the foundation of scientific work. This also includes proper documentation, correct and complete information about sources, and the consistent questioning of one’s own findings."
+      content : "Die Basis einer vertrauenswürdigen Wissenschaft bildet die wissenschaftliche Integrität. Daher tragen Forscherinnen und Forscher die Verantwortung, ihre Tätigkeit nach den Regeln der guten wissenschaftlichen Praxis auszuführen."
 
     # about item loop
-    - title : "Custom Application Profiles"
+    - title : "Benutzerdefinierte Applikationsprofile"
       image : "images/about/schema_short.png"
       image_webp : "images/about/schema_short.png"
-      content : "Applications profiles are key to describe research data with metadata. We aim to solve the common trade-off between specificity and generalization of metadata by allowing the use of multiple application profiles for each project. Thus you can select the best schema to describe your data on a fine grained level while keeping everything in accordance with established standards. "
+      content : "Applikationsprofile sind der Schlüssel zur Beschreibung von Forschungsdaten mit Metadaten. Wir beabsichtigen den Kompromiss zwischen Spezifizität und Verallgemeinerung von Metadaten zu lösen indem wir mehrere Applikationsprofile pro Projekt zulassen. Dadurch können Sie das am besten passende Schema zur detaillierten Beschreibung Ihrer Daten auswählen während Sie alles in Übereinstimmung mit etablierten Standards halten."
 
     # about item loop
-    - title : "Integration of Multiple Resources"
+    - title : "Integration mehrerer Ressourcen"
       image : "images/about/puzzle.jpg"
       image_webp : "images/about/puzzle.webp"
-      content : "Resources a are key conept in Coscine. We look at data sources and services like object store, Gitlab or cloud provider as resources that are integrated into a research project."
+      content : "Ressourcen stellen ein Schlüsselkonzept in coscine dar. Wir sehen Datenquellen und Dienste wie Object Store, GitLab oder Cloud provider als Ressourcen die in ein Forschungsprojekt integriert werden."
 
 ############################ quote slider ##############################
 quote_slider:

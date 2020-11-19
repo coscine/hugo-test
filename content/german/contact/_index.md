@@ -1,6 +1,6 @@
 ---
-title: "Contact Us"
+title: "Kontaktieren Sie uns"
 draft: false
-description : "We rely on user feedback, so do not hesitate to contact us. If you are interested in using Coscine at your institution give us a call or use the provided e-mail."
+description : "Wir sind auf Ihr Feedback angewiesen! Sollten Sie an der Nutzung von coscine an Ihrer Institution interessiert sein, so freuen wir uns auf Ihren Anruf oder eine Nachricht an unsere E-Mail-Adresse."
 ---
 

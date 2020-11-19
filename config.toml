@@ -174,9 +174,8 @@ URL = "https://www.instagram.com/rwthaachenuniversity/"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
-
 
 ################################### French language #####################################
 #[Languages.fr]
@@ -191,5 +190,6 @@ home = "Home"
 languageName = "Ger"
 languageCode = "ger-ger"
 contentDir = "content/german"
-weight = 2
+weight = 1
 home = "Start"
+

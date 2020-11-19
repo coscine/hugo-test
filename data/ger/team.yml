@@ -35,7 +35,7 @@ team_small:
   enable : true
   team_section:
   # team section loop
-    - title : "Coscine development team"
+    - title : "Das Entwicklungsteam hinter Coscine"
       #subtitle : "Get to know the people behind Coscine."
       team_member:
         # team member loop item
@@ -43,21 +43,21 @@ team_small:
           image : "images/team/politze.jpg"
           image_webp : "images/team/politze.jpg"
           designation : "Group leader & software architect"
-          content : "Marius Politze is responsible to lead the development team and to ensure compatability with (inter-)national infrastructures and standards for research data management.."
+          content : "Marius Politze ist verantwortlich für die Leitung des Entwicklerteams und dafür, die Kompatibilität mit den (inter-)nationalen Infrastrukturen und Standards für Forschungsdatenmanagement zu koordinieren."
              
         # team member loop item
         - name : "Bela Brenger"
           image : "images/team/brenger.jpg"
           image_webp : "images/team/brenger.jpg"
           designation : "Service Manager & Product Owner"
-          content : "Bela Brenger is responsible for coordinating with internal and external partners and oversees requirement engineering with our users. "
+          content : "Bela Brenger ist verantwortlich für die Koordinierung mit internen und externen Partnern und beaufsichtigt die Anforderungsanalyse mit unseren Nutzern."
              
         # team member loop item
         - name : "Amin Yazdi"
           image : "images/team/yazdi.png"
           image_webp : "images/team/yazdi.png"
           designation : "UI/UX Expert & SCRUM Master"
-          content : "Amin  Yazdi is responsible for the UI and UX and coordinates the agile development process as our SCRUM Master."
+          content : "Amin  Yazdi ist verantwortlich für das User Interface und die User Experience und koordiniert den agilen Entwicklungsprozess als SCRUM Master."
 
 
 
