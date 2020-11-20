@@ -21,7 +21,7 @@ behind_story:
   content : "Unser Vorhaben ist etablierte Dienste und Workflows zu integrieren und zu erweitern.
   
   
-  Wir beabsichtigen nicht bestehende Prozesse neu zu erfinden sondern möchten zusätzliche Werte schaffen indem wir ansonsten seperate Dienste miteinader verbinden. Um dies zu erreichen nutzen wir Kontextinformationen lokaler idm Dienste, öffentlich zugängliche org. Informationen und standardisierte Interfaces für Zugangsmanagement.
+  Wir beabsichtigen nicht bestehende Prozesse neu zu erfinden sondern möchten zusätzliche Werte schaffen indem wir ansonsten seperate Dienste miteinader verbinden. Um dies zu erreichen nutzen wir Kontextinformationen lokaler idm Dienste, öffentlich zugängliche Informationen von Organisationen und standardisierte Interfaces für Zugangsmanagement.
   
   
   Letzen Endes sind wir bestrebt, nicht nur Wissenschaftler dazu zu befähigen ihre Auflagen hinsichtlich guter wissenschaftlicher Praxis zu erfüllen sondern einen nativ digitalen Forschungsprozess ins Leben zu rufen."
@@ -112,12 +112,12 @@ investors :
 ############################ call to action ##############################
 call_to_action:
   enable : true
-  title : "You can become part of the process"
-  content : "To develop Coscine we depend on feedback from researchers. No matter if you are a junior researcher or in a senior position with a more managerial perspective, we appreciate input and requirements provided by all our users. 
+  title : "Werden Sie Teil des Projektes"
+  content : "Zur weiteren Entwicklung von coscine sind wir auf Ihr Feedback angewiesen. Ganz egal ob Sie Nachwuchswissenschaftler sind oder bereits eine Managementposition innehaben - wir freuen uns über jegliches Feedback.
   
   
-  If you are not a user yet and are considering if Coscine is the right tool for you, feel free to contact us. We will get back to you and see if Coscine fits your needs (yet)."
+  Falls Sie noch kein Nutzer sind und sich fragen, ob coscine das richtige Tool für Sie ist, so wenden Sie sich gerne an uns. Wir werden dann gemeinsam mit Ihnen erörtern, ob coscine Ihren Ansprüchen gerecht werden kann."
   button:
     enable : true
-    label : "Get in contact"
+    label : "Kontakt"
     link : "mailto:servicedesk@itc.rwth-aachen.de"
