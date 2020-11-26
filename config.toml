@@ -8,6 +8,7 @@ paginate = "6"
 summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
+DefaultContentLanguage = "ger"
 
 
 ################################### Plugins #################################
@@ -193,3 +194,89 @@ contentDir = "content/german"
 weight = 1
 home = "Start"
 
+
+############################ German specific navigation #################################
+# main menu
+[[Languages.ger.menu.main]]
+name = "Über Coscine"
+URL = "about"
+weight = 1
+
+#dropdown menu
+[[Languages.ger.menu.main]]
+name = "Entwicklung"
+weight = 2
+hasChildren = true
+
+	[[Languages.ger.menu.main]]
+	parent = "Entwicklung"
+	name = "Team"
+	URL = "team"
+	weight = 1
+
+	[[Languages.ger.menu.main]]
+	parent = "Entwicklung"
+	name = "Publikationen"
+	URL = "publications"
+	weight = 5
+
+	[[Languages.ger.menu.main]]
+	parent = "Entwicklung"
+	name = "Sourcecode auf GitLab"
+	URL = "https://git.rwth-aachen.de/coscine"
+	weight = 7
+	
+# dropdown menu
+[[Languages.ger.menu.main]]
+name = "SUPPORT"
+weight = 5
+hasChildren = true
+
+	[[Languages.ger.menu.main]]
+	parent = "SUPPORT"
+	name = "FAQ"
+	URL = "faq"
+	weight = 1
+	
+	[[Languages.ger.menu.main]]
+	parent = "SUPPORT"
+	name = "Dokumentation"
+	URL = "https://help.itc.rwth-aachen.de/"
+	weight = 2
+
+	[[Languages.ger.menu.main]]
+	parent = "SUPPORT"
+	name = "Kontakt"
+	URL = "contact"
+	weight = 3
+
+	[[Languages.ger.menu.main]]
+	parent = "SUPPORT"
+	name = "Bug Reports"
+	URL = "https://git.rwth-aachen.de/coscine"
+	weight = 4
+
+	[[Languages.ger.menu.main]]
+	parent = "SUPPORT"
+	name = "Feature Requests"
+	URL = "https://git.rwth-aachen.de/coscine"
+	weight = 5
+
+
+[[Languages.ger.menu.main]]
+name = "Impressum"
+URL = "imprint"
+weight = 6
+
+# footer menu
+[[Languages.ger.menu.footer]]
+name = "Über Coscine"
+URL = "about"
+
+[[Languages.ger.menu.footer]]
+name = "Impressum"
+URL = "imprint"
+
+[[Languages.ger.menu.footer]]
+name = "FAQ"
+URL = "faq"
